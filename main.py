@@ -20,8 +20,8 @@ client = OpenAI(
 # "llama-3.3-70b"
 # "llama3.1-8b"
 # "gpt-oss-120b"
-# llm_model = "gpt-oss-120b"
-llm_model = "qwen-3-32b"
+llm_model = "gpt-oss-120b"
+# llm_model = "qwen-3-32b"
 if "llm_model" not in st.session_state:
     st.session_state["llm_model"] = llm_model
 
